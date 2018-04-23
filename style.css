@@ -1,0 +1,36 @@
+html, body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-color: red;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+	position: fixed;
+	display: flex;
+	height: 68px;
+	width: 100%;
+	background-color: white;
+	top: 0px;
+	left: 0px;
+}
+
+.header-left {
+height: 100%;
+flex-grow: 1;
+}
+
+.header-right {
+height: 100%;
+flex-basis: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #00577B;
+color: white;
+}
+
+.header-right-title {
+	padding-left: 10px;
+}
