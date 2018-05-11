@@ -48,6 +48,14 @@ display: flex;
 .header-links {
 	height: 100%;
 	flex-grow: 1;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 12px;
+}
+
+.header-links-text {
+	display: block;
 }
 
 .header-title {
